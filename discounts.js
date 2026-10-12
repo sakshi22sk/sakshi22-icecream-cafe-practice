@@ -1,6 +1,6 @@
 const DISCOUNT_CODES = {
   SCOOP10: 10,
-  SWEET20: 20,
+  SWEET20: 5000,
 };
 
 function isValidDiscountCode(code) {
