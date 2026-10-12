@@ -14,7 +14,10 @@ function applyDiscount(amount, percent) {
 
 function calculateTotal(subtotal, discountPercent = 0) {
   // Practice task: discount first, then add 18% tax, then round to 2 decimals.
-  return subtotal;
+  const discounted_amount=applyDiscount(subtotal,percent)
+  const total=discounted_amount*(1+TAX_RATE)
+
+  return Number(total.toFixed(2));
 }
 
 function formatPrice(amount) {
