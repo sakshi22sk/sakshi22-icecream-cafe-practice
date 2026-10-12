@@ -1,2 +1,5 @@
-# Intentionally incomplete; improve this during Part 1.
+config/settings.env
+*.env
+app.log
+*.log
 node_modules/
