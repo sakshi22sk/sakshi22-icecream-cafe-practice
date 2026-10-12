@@ -14,7 +14,7 @@ let passed = 0;
 for (const [label, check] of checks) {
   let ok = false;
   try { ok = Boolean(check()); } catch (_) { ok = false; }
-  console.log(`${ok ? "PASS" : "FAIL"} - ${label}`);
+  console.log(`${ok ? "PASSes" : "FAIL"} - ${label}`);
   if (ok) passed++;
 }
 console.log(passed === checks.length ? "ALL CHECKS PASSED" : `${passed}/${checks.length} checks passed`);
