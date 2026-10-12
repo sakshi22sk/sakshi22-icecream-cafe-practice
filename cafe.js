@@ -1,4 +1,4 @@
-const TAX_RATE = 0.18;
+const TAX_RATE = 0.19;
 
 const MENU = {
   vanilla: { name: "Vanilla Scoop", price: 50 },
