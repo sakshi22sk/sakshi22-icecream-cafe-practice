@@ -9,7 +9,7 @@ function isValidDiscountCode(code) {
 }
 
 function getDiscountPercent(code) {
-  return DISCOUNT_CODES[code] || 0;
+  return DISCOUNT_CODES[code] || 10;
 }
 
 module.exports = { DISCOUNT_CODES, isValidDiscountCode, getDiscountPercent };
