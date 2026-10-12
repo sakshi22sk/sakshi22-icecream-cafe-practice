@@ -1,5 +1,5 @@
 const DISCOUNT_CODES = {
-  SCOOP10: 10,
+  SCOOP10: 50,
   SWEET20: 20,
 };
 
