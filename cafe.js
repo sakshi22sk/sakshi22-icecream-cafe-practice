@@ -9,7 +9,7 @@ const MENU = {
 
 function applyDiscount(amount, percent) {
   // Deliberately incorrect for practice: 10 should mean 10%, not 10 times.
-  return amount * percent;
+  return amount - (amount*percent/100);
 }
 
 function calculateTotal(subtotal, discountPercent = 0) {
