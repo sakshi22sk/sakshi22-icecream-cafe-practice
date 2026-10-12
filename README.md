@@ -2,6 +2,8 @@
 
 A tiny JavaScript ice-cream cafe app created for Git/GitLab practical practice.
 
+##Usage
+Do it
 ## Setup
 
 Requires Node.js. No external packages are needed.

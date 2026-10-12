@@ -9,12 +9,15 @@ const MENU = {
 
 function applyDiscount(amount, percent) {
   // Deliberately incorrect for practice: 10 should mean 10%, not 10 times.
-  return amount * percent;
+  return amount - (amount*percent/100);
 }
 
 function calculateTotal(subtotal, discountPercent = 0) {
   // Practice task: discount first, then add 18% tax, then round to 2 decimals.
-  return subtotal;
+  const discounted_amount=applyDiscount(subtotal,percent)
+  const total=discounted_amount*(1+TAX_RATE)
+
+  return Number(total.toFixed(2));
 }
 
 function formatPrice(amount) {
